@@ -1,0 +1,17 @@
+/*Aplicando sprint para o logo usando h1*/
+
+.instragram-logo{
+    background: url(assets/img/sprint.png);
+    background-repeat: no-repeat;
+    background-position: 0 -130px;
+    width: 175px;
+    height: 51px;
+}
+
+/*Para esconder o texto*/
+.esconde-texto{
+    display: block;
+    overflow: hidden;
+    text-indent: 110%;
+    white-space: nowrap;
+}
