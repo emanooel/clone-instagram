@@ -1,6 +1,40 @@
-/*Aplicando sprint para o logo usando h1*/
+/*CSS RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
 
-.instragram-logo{
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243,243,243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-wrapper{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 60%;
+    height: 100vh;
+}
+
+.instagram-phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+/*Aplicando sprint para o logo usando h1*/
+.instagram-logo{
     background: url(assets/img/sprint.png);
     background-repeat: no-repeat;
     background-position: 0 -130px;
