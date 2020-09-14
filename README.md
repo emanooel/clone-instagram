@@ -1,1 +1,1 @@
-# clone pagina inicial do instagram
+# clone pagina inicial do instagram usando HTML e CSS
